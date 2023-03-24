@@ -1,0 +1,28 @@
+.container{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container > div{
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	margin-right: -5px;
+}
+
+.container > div:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+body {
+    text-align: center;
+}
